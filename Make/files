@@ -1,0 +1,9 @@
+myCompressibleInterFoam.C
+
+Stuff/myBasicThermo.C
+Stuff/myFluidThermo.C
+Stuff/myPsiThermo.C
+Stuff/myRhoThermo.C
+
+
+EXE = $(FOAM_USER_APPBIN)/myCompressibleInterFoam
