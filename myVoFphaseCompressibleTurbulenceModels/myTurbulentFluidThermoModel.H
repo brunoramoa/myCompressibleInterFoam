@@ -35,13 +35,13 @@ Description
     based on the standard laminar transport package.
 
 SourceFiles
-    myTurbulentFluidThermoModel.C
-    myTurbulentFluidThermoModels.C
+    myTurbulentfluidThermooModel.C
+    myTurbulentfluidThermooModels.C
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef myTurbulentFluidThermoModel_H
-#define myTurbulentFluidThermoModel_H
+#ifndef myTurbulentfluidThermooModel_H
+#define myTurbulentfluidThermooModel_H
 
 #include "CompressibleTurbulenceModel.H"
 #include "ThermalDiffusivity.H"

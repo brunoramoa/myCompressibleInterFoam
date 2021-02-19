@@ -37,7 +37,7 @@ SourceFiles
 #define myTwoPhaseMixtureThermo_H
 
 #include "myRhoThermo.H"
-#include "psiThermo.H"
+#include "myPsiThermo.H"
 #include "twoPhaseMixture.H"
 #include "interfaceProperties.H"
 
@@ -52,7 +52,7 @@ namespace Foam
 
 class myTwoPhaseMixtureThermo
 :
-    public psiThermo,
+    public myPsiThermo,
     public twoPhaseMixture,
     public interfaceProperties
 {

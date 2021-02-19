@@ -44,7 +44,7 @@ Foam::myTwoPhaseMixtureThermo::myTwoPhaseMixtureThermo
     const surfaceScalarField& phi
 )
 :
-    psiThermo(U.mesh(), word::null),
+    myPsiThermo(U.mesh(), word::null),
     twoPhaseMixture(U.mesh(), *this),
     interfaceProperties(alpha1(), U, *this),
     thermo1_(nullptr),
@@ -428,7 +428,7 @@ Foam::tmp<Foam::scalarField> Foam::myTwoPhaseMixtureThermo::alphaEff
 
 bool Foam::myTwoPhaseMixtureThermo::read()
 {
-    if (psiThermo::read())
+    if (myPsiThermo::read())
     {
         return interfaceProperties::read();
     }
